@@ -104,6 +104,15 @@ pip3 install matplotlib
 
 Answer the following questions:
 - Add the plots to your report and explain them (describe what you see)
+  - First, we could reference the influence after increasing the K_p, K_i and K_d from [Wiki: PID Controller](https://en.wikipedia.org/wiki/PID_controller).
+ 
+    ![PID Compensation](https://upload.wikimedia.org/wikipedia/commons/3/33/PID_Compensation_Animated.gif)
+    
+    - As we can see, enlarge the K_p or K_i will increase the overshoot and also decrease the stability.
+    - The other way, enlarge the K_d will decrease the overshoot.
+
+    - TODO: Attach plots
+    
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
 - How would you design a way to automatically tune the PID parameters?
 
