@@ -106,7 +106,19 @@ Answer the following questions:
 - Add the plots to your report and explain them (describe what you see)
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
 - How would you design a way to automatically tune the PID parameters?
+
+  > [Twiddle algorithm](https://martin-thoma.com/twiddle/) is probably a good method to auto tune the parameters. 
+  
 - PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
+
+  - Pros
+    - Easy to implement.
+    - Efficient and robust on some condition.
+    - Only depend on the error between the desired signals and controlled signals. No further sensor information needed.
+  - Cons
+    - Difficult to handle those variables with strong interactions.
+    - Low performance to handle strong non-linearities.
+  
 - (Optional) What would you do to improve the PID controller?
 
 
