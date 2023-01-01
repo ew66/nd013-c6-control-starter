@@ -63,7 +63,7 @@ Complete the TODO in the [pid_controller.h](https://github.com/udacity/nd013-c6-
 
 Run the simulator and see in the desktop mode the car in the CARLA simulator. Take a screenshot and add it to your report. The car should not move in the simulation.
 
-![Screenshot-step1](plots/step1.png)
+![Screenshot-step1](project/pid_controller/screenshot/step1.png)
 
 ### Step 2: PID controller for throttle:
 1) In [main.cpp](https://github.com/udacity/nd013-c6-control-starter/blob/master/project/pid_controller/main.cpp), complete the TODO (step 2) to compute the error for the throttle pid. The error is the speed difference between the actual speed and the desired speed.
@@ -132,7 +132,7 @@ Answer the following questions:
     |Test K_p 2| 0.4 | 0.0001| 0.2| ![](project/pid_controller/screenshot/steer_kp_2.png)| ![](project/pid_controller/screenshot/throttle_kp_2.png)|
     |Manual Tuning| 0.22 | 0.0005| 0.8| ![](project/pid_controller/screenshot/steer_final_2.png)| ![](project/pid_controller/screenshot/throttle_final_2.png)|
     
-   - The video of manual tuning is shown in ![result](plots/final_parameter.mov).
+   - The video of manual tuning is shown in ![result](project/pid_controller/screenshot/final_parameter.mov).
   
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
   - Term $P$: Large $P$ value will give the car a large change on the outout.
