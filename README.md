@@ -132,6 +132,8 @@ Answer the following questions:
     |Test K_p 2| 0.4 | 0.0001| 0.2| ![](plots/steer_kp_2.png)| ![](plots/throttle_kp_2.png)|
     |Manual Tuning| 0.22 | 0.0005| 0.8| ![](plots/steer_final_2.png)| ![](plots/throttle_final_2.png)|
     
+   - The video of manual tuning is shown in ![result](plots/final_parameter.mov).
+  
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
   - Term $P$: Large $P$ value will give the car a large change on the outout.
   - Term $I$: Because it's relate to cumulative error, a large $I$ will elimiate the system bias over time.
