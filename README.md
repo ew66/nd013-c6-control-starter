@@ -122,15 +122,15 @@ Answer the following questions:
     
     |Experiment name|K_p|K_i|k_d|steering|throttle|
     |-|-|-|-|-|-|
-    |Test K_d 1| 0.2 | 0.0001| 0.2| ![](plots/steer_kd_1.png)| ![](plots/throttle_kd_1.png)|
-    |Test K_d 2| 0.2 | 0.0001| 0.3| ![](plots/steer_kd_2.png)| ![](plots/throttle_kd_2.png)|
-    |Test K_d 3| 0.2 | 0.0001| 0.4| ![](plots/steer_kd_3.png)| ![](plots/throttle_kd_3.png)|
-    |Test K_i 1| 0.2 | 0.0005| 0.2| ![](plots/steer_ki_1.png)| ![](plots/throttle_ki_1.png)|
-    |Test K_i 2| 0.2 | 0.001| 0.2| ![](plots/steer_ki_2.png)| ![](plots/throttle_ki_2.png)|
-    |Test K_i 3| 0.2 | 0.005| 0.2| ![](plots/steer_ki_3.png)| ![](plots/throttle_ki_3.png)|
-    |Test K_p 1| 0.1 | 0.0001| 0.2| ![](plots/steer_kp_1.png)| ![](plots/throttle_kp_1.png)|
-    |Test K_p 2| 0.4 | 0.0001| 0.2| ![](plots/steer_kp_2.png)| ![](plots/throttle_kp_2.png)|
-    |Manual Tuning| 0.22 | 0.0005| 0.8| ![](plots/steer_final_2.png)| ![](plots/throttle_final_2.png)|
+    |Test K_d 1| 0.2 | 0.0001| 0.2| ![](project/pid_controller/screenshot/steer_kd_1.png)| ![](project/pid_controller/screenshot/throttle_kd_1.png)|
+    |Test K_d 2| 0.2 | 0.0001| 0.3| ![](project/pid_controller/screenshot/steer_kd_2.png)| ![](project/pid_controller/screenshot/throttle_kd_2.png)|
+    |Test K_d 3| 0.2 | 0.0001| 0.4| ![](project/pid_controller/screenshot/steer_kd_3.png)| ![](project/pid_controller/screenshot/throttle_kd_3.png)|
+    |Test K_i 1| 0.2 | 0.0005| 0.2| ![](project/pid_controller/screenshot/steer_ki_1.png)| ![](project/pid_controller/screenshot/throttle_ki_1.png)|
+    |Test K_i 2| 0.2 | 0.001| 0.2| ![](project/pid_controller/screenshot/steer_ki_2.png)| ![](project/pid_controller/screenshot/throttle_ki_2.png)|
+    |Test K_i 3| 0.2 | 0.005| 0.2| ![](project/pid_controller/screenshot/steer_ki_3.png)| ![](project/pid_controller/screenshot/throttle_ki_3.png)|
+    |Test K_p 1| 0.1 | 0.0001| 0.2| ![](project/pid_controller/screenshot/steer_kp_1.png)| ![](project/pid_controller/screenshot/throttle_kp_1.png)|
+    |Test K_p 2| 0.4 | 0.0001| 0.2| ![](project/pid_controller/screenshot/steer_kp_2.png)| ![](project/pid_controller/screenshot/throttle_kp_2.png)|
+    |Manual Tuning| 0.22 | 0.0005| 0.8| ![](project/pid_controller/screenshot/steer_final_2.png)| ![](project/pid_controller/screenshot/throttle_final_2.png)|
     
    - The video of manual tuning is shown in ![result](plots/final_parameter.mov).
   
