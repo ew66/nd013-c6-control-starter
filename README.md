@@ -133,6 +133,10 @@ Answer the following questions:
     |Manual Tuning| 0.22 | 0.0005| 0.8| ![](plots/steer_final_2.png)| ![](plots/throttle_final_2.png)|
     
 - What is the effect of the PID according to the plots, how each part of the PID affects the control command?
+  - Term $P$: Large $P$ value will give the car a large change on the outout.
+  - Term $I$: Because it's relate to cumulative error, a large $I$ will elimiate the system bias over time.
+  - Term $D$: Large $D$ will help us to decrease the settling time and also increase the stability.
+
 - How would you design a way to automatically tune the PID parameters?
 
   > [Twiddle algorithm](https://martin-thoma.com/twiddle/) is probably a good method to auto tune the parameters. 
@@ -148,7 +152,7 @@ Answer the following questions:
     - Low performance to handle strong non-linearities.
   
 - (Optional) What would you do to improve the PID controller?
-
+  - Experience from this project, it's really hard to tune the parameters to perform a "perfect" control manually. So the auto-tune techinics is necessary for us to decrease the tuning time.
 
 ### Tips:
 
